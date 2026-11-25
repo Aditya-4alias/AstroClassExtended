@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "anomaly",
+    "elliptical",
+    "spiral"
+  ],
+  "accuracy": {
+    "resnet18": {
+      "val": 0.9302325581395349,
+      "test": 0.7073170731707317
+    },
+    "multiband": {
+      "val": 0.9418604651162791,
+      "test": 0.6707317073170732
+    },
+    "efficientnet_b0": {
+      "val": 0.8953488372093024,
+      "test": 0.7317073170731707
+    },
+    "ensemble": {
+      "val": 0.9418604651162791,
+      "test": 0.7317073170731707
+    }
+  },
+  "best_single_model": "multiband"
+}

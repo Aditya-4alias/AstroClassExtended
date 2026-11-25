@@ -1,0 +1,11 @@
+TEST set | loss: 0.8758 | acc: 73.17% | n: 82
+
+              precision    recall  f1-score   support
+
+     Anomaly       1.00      0.16      0.28        25
+  Elliptical       0.88      0.97      0.92        31
+      Spiral       0.59      1.00      0.74        26
+
+    accuracy                           0.73        82
+   macro avg       0.82      0.71      0.65        82
+weighted avg       0.83      0.73      0.67        82

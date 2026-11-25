@@ -1,0 +1,27 @@
+{
+  "classes": [
+    "anomaly",
+    "elliptical",
+    "spiral"
+  ],
+  "members": [
+    {
+      "arch": "resnet18",
+      "checkpoint": "resnet18/best_model.pth",
+      "weight": 0.3333333333333333,
+      "val_acc": 0.9302325581395349
+    },
+    {
+      "arch": "multiband",
+      "checkpoint": "multiband/best_model.pth",
+      "weight": 0.3333333333333333,
+      "val_acc": 0.9418604651162791
+    },
+    {
+      "arch": "efficientnet_b0",
+      "checkpoint": "efficientnet_b0/best_model.pth",
+      "weight": 0.3333333333333333,
+      "val_acc": 0.8953488372093024
+    }
+  ]
+}

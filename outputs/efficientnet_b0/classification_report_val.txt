@@ -1,0 +1,11 @@
+VAL set | loss: 0.3901 | acc: 89.53% | n: 86
+
+              precision    recall  f1-score   support
+
+     Anomaly       0.79      0.75      0.77        20
+  Elliptical       0.90      0.90      0.90        30
+      Spiral       0.95      0.97      0.96        36
+
+    accuracy                           0.90        86
+   macro avg       0.88      0.87      0.88        86
+weighted avg       0.89      0.90      0.89        86

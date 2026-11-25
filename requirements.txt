@@ -1,0 +1,11 @@
+numpy
+pandas
+pillow
+matplotlib
+scipy
+scikit-learn
+astropy
+reproject
+torch
+torchvision
+streamlit
