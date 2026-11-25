@@ -2,4 +2,5 @@
 /labels_fix.csv
 /__pycache__
 *.pth
+*.zip
 /data
